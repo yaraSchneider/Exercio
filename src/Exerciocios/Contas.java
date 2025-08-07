@@ -10,7 +10,7 @@ public class Contas {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-         
+
         System.out.println("Digite o 1° valor: ");
         int valor1 = sc.nextInt();
 
