@@ -1,15 +1,12 @@
 package Exerciocios;
 
-/*
-    Ler uma variável de número inteiro e mostrar a tabuada desse número. Usando o laço de
-    repetição Do While.
-
- */
-
 import java.util.Scanner;
 
-public class tabuada1 {
-
+/*
+    Ler uma variável de número inteiro e mostrar a tabuada desse número. Usando o laço de
+    repetição While.
+ */
+public class Tabuada2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -20,10 +17,10 @@ public class tabuada1 {
         System.out.println("Digite um numero: ");
         num = sc.nextInt();
 
-        do {
+        while (cont != 10) {
             cont++;
             System.out.println(num * cont);
-        } while (cont != 10);
+        }
 
     }
 }
